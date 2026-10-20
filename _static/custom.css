@@ -1,0 +1,31 @@
+/* theme customizations */
+html[data-theme="light"] {
+    --pst-color-primary: #4b8ed4;
+    --pst-color-secondary: #0a7d91;
+}
+
+html[data-theme="dark"] {
+    --pst-color-primary: #4b8ed4;
+    --pst-color-secondary: #0a7d91;
+}
+
+.viewcode-link {
+    font-size: 0.8rem;
+}
+
+/* logo-like */
+
+.ts2vg, .navbar-brand p.title {
+    color: var(--pst-color-primary);
+    font-weight: bolder;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 0.625rem;
+}
+
+.navbar-brand p.title {
+    font-size: 30px;
+}
